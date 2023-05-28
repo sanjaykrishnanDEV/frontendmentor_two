@@ -1,0 +1,63 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.box {
+  display: flex;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  height: 450px;
+  width: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding-right: 16px;
+}
+.slide {
+  height: 450px;
+  width: 50%;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  font-size: 15px;
+  width: 220px;
+  height: 40px;
+  font-weight: 600;
+
+  color: white;
+}
+img {
+  border-radius: 10px;
+}
+p {
+  color: hsl(212, 21%, 14%);
+  font-weight: 500;
+}
+h4 {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+h2 {
+  font-size: 35px;
+}
+H3 {
+  font-size: 30px;
+}
+#dash {
+  color: hsl(228, 12%, 48%);
+  font-size: large;
+}
+#green {
+  color: hsl(158, 36%, 37%);
+}
+.texts {
+  height: 450px;
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding-left: 10px;
+}
